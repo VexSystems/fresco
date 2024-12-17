@@ -69,7 +69,12 @@ table {
 
 /* SPLIT SECTION */
 .split-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .split-section h1 {
@@ -144,10 +149,10 @@ body {
 /* ROW */
 .row {
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-evenly;
 }
 
 /* NAVIGATION */
