@@ -333,24 +333,26 @@ nav .links {
 /* STAFF */
 .staff .wrapper {
     display: flex;
-    gap: 2rem;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
     padding: 0 2rem;
+    gap: 2rem;
 }
 
 .staff .wrapper .container {
     width: 30%;
     height: auto;
     border-radius: 0.6rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
 }
 
 .staff .wrapper .container img {
     width: 100%;
     height: auto;
-    border-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
 }
 
 .staff .wrapper .container #text {
@@ -358,6 +360,7 @@ nav .links {
     border-bottom-left-radius: 0.4rem;
     border-bottom-right-radius: 0.4rem;
     background: rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
 }
 
 .staff .wrapper .container h2 {
@@ -373,6 +376,7 @@ nav .links {
 
 @media (max-width: 768px) {
     .staff .wrapper .container {
+        margin-bottom: 2rem;
         width: 80%;
     }
 }
