@@ -258,8 +258,8 @@ nav .links {
         45deg,
         #cfffc3,
         #cfffc3 10px,
-        #f7f7f7 10px,
-        #f7f7f7 20px
+        #fcfcfc 10px,
+        #fcfcfc 20px
     );
 }
 
@@ -273,7 +273,7 @@ nav .links {
 }
 
 .featured-dishes .wrapper .container {
-    width: 23%; /* Adjusted for 4 in a row */
+    width: 24%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -293,7 +293,7 @@ nav .links {
 
 .featured-dishes .wrapper .container #info {
     height: min-content;
-    padding: 1.8rem 0.8rem;
+    padding: 1rem 1.4rem;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
