@@ -91,7 +91,7 @@
     align-items: stretch;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0 2rem;
+    padding: 0rem 2rem;
     flex-wrap: wrap;
 }
 
@@ -116,7 +116,7 @@
 
 .featured-dishes .wrapper .container #info {
     height: min-content;
-    padding: 1rem 1.4rem;
+    padding: 1.8rem 1.4rem;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
