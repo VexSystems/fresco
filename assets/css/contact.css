@@ -11,14 +11,12 @@
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
     .contact .split-section p {
-        text-align: center;
         width: 90%;
     }
 }
 
 @media (max-width: 480px) {
     .contact .split-section p {
-        text-align: center;
         width: 100%;
     }
 }
