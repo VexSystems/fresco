@@ -55,9 +55,6 @@ table {
     --link-hover: #ffe033;
     --link-active: #e6b800;
 
-    /* STAFF*/
-    --staff-background: rgb(230, 230, 230);
-
     /* TEXT DEFAULT */
     --text-dark: #0c0c0c;
     --text-light: #fafafa;
@@ -407,7 +404,7 @@ nav .links {
     padding: 1rem;
     border-bottom-left-radius: 0.4rem;
     border-bottom-right-radius: 0.4rem;
-    background: var(--staff-background);
+    background: var(--section-bg-gray);
     flex-grow: 1;
 }
 
@@ -524,6 +521,7 @@ footer .wrapper {
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 footer .wrapper a {
@@ -534,27 +532,28 @@ footer .wrapper .container {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
-
     flex-grow: 1;
     flex-basis: 0;
     min-width: 200px;
+    align-items: center;
+    text-align: center;
 }
 
-/* USEFUL LINKS CONTAINER */
 footer .wrapper #useful-links {
     text-align: left;
 }
 
-/* SOCIAL MEDIA CONTAINER */
 footer .wrapper #social-media {
     text-align: center;
 }
+
 footer .wrapper #social-media h2 {
     font-weight: 100;
     margin-bottom: 0.4rem;
     word-spacing: 0.4rem;
     letter-spacing: 0.1rem;
 }
+
 footer .wrapper #social-media img {
     width: 2rem;
     height: auto;
@@ -562,21 +561,68 @@ footer .wrapper #social-media img {
     margin-top: 0.2rem;
     border: 1px solid var(--footer-icon-border);
 }
+
 footer .wrapper #social-media .inner {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
-footer .wrapper #social-media #instagram {
-    width: 1.6rem;
-    padding: 0.6rem;
-}
+
+footer .wrapper #social-media #instagram,
 footer .wrapper #social-media #portfolio {
     width: 1.6rem;
     padding: 0.6rem;
 }
 
-/* POLICIES CONTAINER */
 footer .wrapper #policy {
     text-align: right;
+}
+
+footer .split-section hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: var(--footer-icon-border);
+    margin: 1rem 0;
+}
+
+footer .credits {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer .credits a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+    footer .wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    footer .wrapper .container {
+        text-align: center;
+        align-items: center;
+    }
+
+    footer .wrapper #useful-links,
+    footer .wrapper #policy {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    footer .wrapper a {
+        font-size: 1rem;
+    }
+
+    footer .credits {
+        font-size: 0.8rem;
+    }
 }
