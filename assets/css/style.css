@@ -126,18 +126,19 @@ body {
 
 /* NAVIGATION */
 nav {
-    width: 100%;
+    max-width: 100%;
+    right: 0; left: 0;
     position: fixed;
     z-index: 99999;
     text-transform: uppercase;
     backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    --webkit-backdrop-filter: blur(6px);
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 nav a {
@@ -145,6 +146,7 @@ nav a {
 }
 
 nav .logo {
+    width: min-content;
     padding: 1rem 4rem;
     flex: 1 1 auto;
 }
@@ -184,18 +186,20 @@ nav .links {
 
     nav .links {
         display: flex;
-        justify-content: space-evenly;
-        width: 100%;
+        justify-content: center;
         font-size: 1rem;
         flex-wrap: wrap;
         padding: 0;
         padding-top: 0.2rem;
         padding-bottom: 0.6rem;
         gap: 0rem;
+        align-content: center;
+        flex-direction: row;
+        align-items: center;
     }
 
     nav .links a {
-        padding: 0.5rem 1rem;
+        padding: 0.2rem 0.6rem;
     }
 }
 
@@ -427,6 +431,11 @@ nav .links {
 .testimonials .slider {
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+.testimonials .wrapper,
+.testimonials .tns-outer {
+    max-width: 100%;
 }
 
 .testimonials .slider .inner {
