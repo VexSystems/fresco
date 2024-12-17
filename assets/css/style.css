@@ -46,11 +46,10 @@ table {
     --color-footer-bg: #004d40;
     --color-footer-text: #ffffff;
 
+    --staff-background: rgb(230, 230, 230);
+
     --color-text: #000000;
     --color-text-light: #666666;
-
-    --color-border: #444444;
-    --color-hover: #e85d50;
 
     --color-link: #00bfa5;
     --color-link-visited: #00a891;
@@ -387,7 +386,7 @@ nav .links {
     padding: 1rem;
     border-bottom-left-radius: 0.4rem;
     border-bottom-right-radius: 0.4rem;
-    background: rgba(0, 0, 0, 0.2);
+    background: var(--staff-background);
     flex-grow: 1;
 }
 
