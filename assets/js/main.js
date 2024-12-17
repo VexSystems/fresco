@@ -13,6 +13,7 @@ function heroChange() {
     setInterval(fadeImages, 3000);
 }
 
+/* TESTIMONIALS SLIDER */
 document.addEventListener('DOMContentLoaded', function () {
     const slider = tns({
         container: '.slider',
