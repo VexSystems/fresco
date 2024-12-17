@@ -1,3 +1,38 @@
+/*
+<div class="bottom-bar">
+<form action="javascript:alert('Fresco je fiktivan brend koji ne postoji, i služi samo za demonstraciju dizajna i funkcionalnosti, zbog toga ova funkcija je nepostojeća.')">
+<div class="row">
+<input type="text" placeholder="First and last name*" required>
+<input type="email" placeholder="Email address*" required>
+</div>
+<div class="row">
+<input type="date" required>
+<select>
+                            <option>09:00</option>
+                            <option>10:00</option>
+                            <option>11:00</option>
+                            <option>12:00</option>
+                            <option>13:00</option>
+                            <option>14:00</option>
+                            <option>15:00</option>
+                            <option>16:00</option>
+                            <option>17:00</option>
+                            <option>18:00</option>
+                            <option>19:00</option>
+                            <option>20:00</option>
+                            <option>21:00</option>
+                            <option>22:00</option>
+                            <option>23:00</option>
+</select>
+</div>
+
+<div class="column">
+<textarea placeolder="Message*"></textarea>
+<input type="submit" value="Send Email">
+</div>
+
+*/
+
 .reservation {
     padding: 8rem 2rem;
 }
@@ -5,6 +40,23 @@
 .reservation .split-section p {
     text-align: center;
     width: 80%;
+}
+
+.reservation .top-bar {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reservation .top-bar .wrapper {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* RESPONSIVENESS */
