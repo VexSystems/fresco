@@ -146,6 +146,7 @@ nav a {
 
 nav .logo {
     padding: 1rem 4rem;
+    flex: 1 1 auto;
 }
 
 nav .logo img {
@@ -159,19 +160,42 @@ nav .links {
     gap: 1.6rem;
     align-items: center;
     font-size: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 824px) {
     nav {
         justify-content: center;
     }
 
     nav .logo {
-        padding: 1rem;
+        padding: 0;
+        padding-top: 1rem;
+        padding-bottom: 0.2rem;
+        text-align: center;
+        flex: 1 1 100%;
+    }
+
+    nav .logo img {
+        width: auto;
+        height: 1.6rem;
     }
 
     nav .links {
-        display: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        padding: 0;
+        padding-top: 0.2rem;
+        padding-bottom: 0.6rem;
+        gap: 0rem;
+    }
+
+    nav .links a {
+        padding: 0.5rem 1rem;
     }
 }
 
