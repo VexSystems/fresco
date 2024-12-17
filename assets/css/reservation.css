@@ -1,0 +1,21 @@
+.reservation {
+    padding: 8rem 2rem;
+}
+
+.reservation .split-section p {
+    text-align: center;
+    width: 80%;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+    .reservation .split-section p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .reservation .split-section p {
+        width: 100%;
+    }
+}

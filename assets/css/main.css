@@ -35,10 +35,11 @@
 }
 
 .hero .hero-text p {
-    letter-spacing: 0.1rem;
-    word-spacing: 0.7rem;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.6rem;
     font-size: 1.2rem;
     margin-bottom: 1.4rem;
+    color: var(--text-light);
 }
 
 .hero .hero-text a {
