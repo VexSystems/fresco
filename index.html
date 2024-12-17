@@ -39,14 +39,16 @@
 
         <!-- SLIDER -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+
+        <!-- LAZY LOADING -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
     </head>
     <body onload="heroChange()">
         <!-- START NAVBAR -->
         <nav>
             <div class="logo">
                 <a href="index">
-                    <img src="assets/img/logo/fresco_white.png" alt="Logo">
+                    <img src="assets/img/logo/fresco_white.png" alt="Logo" loading="lazy">
                 </a>
             </div>
             <div class="links">
@@ -61,11 +63,11 @@
         <!-- START HERO -->
         <section class="hero">
             <div class="images">
-                <img src="assets/img/hero/1.webp" alt="Hero image 1" class="hero-image" style="opacity: 1;">
-                <img src="assets/img/hero/2.webp" alt="Hero image 2" class="hero-image">
-                <img src="assets/img/hero/3.webp" alt="Hero image 3" class="hero-image">
-                <img src="assets/img/hero/4.webp" alt="Hero image 4" class="hero-image">
-                <img src="assets/img/hero/5.webp" alt="Hero image 5" class="hero-image">
+                <img src="assets/img/hero/1.webp" alt="Hero image 1" class="hero-image" style="opacity: 1;" loading="lazy">
+                <img src="assets/img/hero/2.webp" alt="Hero image 2" class="hero-image" loading="lazy">
+                <img src="assets/img/hero/3.webp" alt="Hero image 3" class="hero-image" loading="lazy">
+                <img src="assets/img/hero/4.webp" alt="Hero image 4" class="hero-image" loading="lazy">
+                <img src="assets/img/hero/5.webp" alt="Hero image 5" class="hero-image" loading="lazy">
             </div>
             <div class="hero-text">
                 <h1>Fresco</h1>
@@ -94,28 +96,28 @@
 
             <div class="wrapper">
                 <div class="container">
-                    <img src="assets/img/menu/margherita.webp" alt="Margherita">
+                    <img src="assets/img/menu/margherita.webp" alt="Margherita" loading="lazy">
                     <div id="info">
                         <h1>Margherita</h1>
                         <p><i>Pizza</i></p>
                     </div>
                 </div>
                 <div class="container">
-                    <img src="assets/img/menu/spaghetti.webp" alt="Spaghetti">
+                    <img src="assets/img/menu/spaghetti.webp" alt="Spaghetti" loading="lazy">
                     <div id="info">
                         <h1>Spaghetti</h1>
                         <p><i>Tjestenina</i></p>
                     </div>
                 </div>
                 <div class="container">
-                    <img src="assets/img/menu/lasagna.webp" alt="Lasagna">
+                    <img src="assets/img/menu/lasagna.webp" alt="Lasagna" loading="lazy">
                     <div id="info">
                         <h1>Lasagna</h1>
                         <p><i>Goveđe lazanje</i></p>
                     </div>
                 </div>
                 <div class="container">
-                    <img src="assets/img/menu/risotto.webp" alt="Risotto">
+                    <img src="assets/img/menu/risotto.webp" alt="Risotto" loading="lazy">
                     <div id="info">
                         <h1>Risotto</h1>
                         <p><i>Jelo sa rižom</i></p>
@@ -135,14 +137,14 @@
 
             <div class="wrapper">
                 <div class="container">
-                    <img src="assets/img/staff/chef.webp" alt="John Doe">
+                    <img src="assets/img/staff/chef.webp" alt="John Doe" loading="lazy">
                     <div id="text">
                         <h2>John Doe</h2>
                         <p><i>Glavni kuvar</i></p>
                     </div>
                 </div>
                 <div class="container">
-                    <img src="assets/img/staff/chef.webp" alt="John Doe">
+                    <img src="assets/img/staff/chef.webp" alt="John Doe" loading="lazy">
                     <div id="text">
                         <h2>John Doe</h2>
                         <p><i>Glavni kuvar</i></p>
@@ -164,7 +166,7 @@
                 <div class="slider">
                     <div class="container">
                         <div class="inner">
-                            <img src="assets/img/testimonials/avatar.svg" alt="Testimonial avatar">
+                            <img src="assets/img/testimonials/avatar.svg" alt="Testimonial avatar" loading="lazy">
                             <div id="info">
                                 <h2>John Doe</h2>
                                 <p><i>Google recenzija</i></p>
@@ -176,7 +178,7 @@
                     </div>
                     <div class="container">
                         <div class="inner">
-                            <img src="assets/img/testimonials/avatar.svg" alt="Testimonial avatar">
+                            <img src="assets/img/testimonials/avatar.svg" alt="Testimonial avatar" loading="lazy">
                             <div id="info">
                                 <h2>John Doe</h2>
                                 <p><i>Google recenzija</i></p>
@@ -213,13 +215,13 @@
                     <h2>ZAPRATI NAS</h2>
                     <div class="inner">
                         <a href="https://www.instagram.com/velimirpaleksic/" target="_blank">
-                            <img id="instagram" src="assets/img/icons/instagram.svg" alt="Instagram">
+                            <img id="instagram" src="assets/img/icons/instagram.svg" alt="Instagram" loading="lazy">
                         </a>
                         <a href="https://github.com/velimirpaleksic" target="_blank">
-                            <img id="github" src="assets/img/icons/github.svg" alt="Github">
+                            <img id="github" src="assets/img/icons/github.svg" alt="Github" loading="lazy">
                         </a>
                         <a href="https://velimirpaleksic.github.io/portfolio/" target="_blank">
-                            <img id="portfolio" src="assets/img/icons/resume.svg" alt="Website">
+                            <img id="portfolio" src="assets/img/icons/resume.svg" alt="Website" loading="lazy">
                         </a>
                     </div>
                 </div>
