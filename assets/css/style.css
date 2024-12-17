@@ -149,10 +149,10 @@ body {
 /* ROW */
 .row {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
 }
 
 /* NAVIGATION */
