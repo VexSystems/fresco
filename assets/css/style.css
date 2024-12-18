@@ -44,6 +44,9 @@ table {
     --section-bg-lighter: #ffffea;
     --section-bg-gray: #f1f1f1;
 
+    /* NAVIGATION */
+    --nav-bg: rgba(73, 57, 10, 0.4);
+
     /* FOOTER */
     --footer-bg: #664d00;
     --footer-text: #ffffff;
@@ -54,6 +57,12 @@ table {
     --link-visited: #ffe066;
     --link-hover: #ffe033;
     --link-active: #e6b800;
+
+    /* BUTTON */
+    --button-bg: #e6ac00;
+    --button-hover: #ffbf00;
+    --button-active: #cc9900;
+    --button-text: #0c0c0c;
 
     /* TEXT DEFAULT */
     --text-dark: #0c0c0c;
@@ -164,7 +173,7 @@ nav {
     text-transform: uppercase;
     backdrop-filter: blur(6px);
     --webkit-backdrop-filter: blur(6px);
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--nav-bg);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -236,7 +245,7 @@ nav .links {
 
 /* FOOTER */
 footer {
-    padding: 1.2rem;
+    padding: 2rem 4rem;
     color: var(--footer-text);
     background: var(--footer-bg);
 }
@@ -270,16 +279,15 @@ footer .wrapper .container {
     flex-grow: 1;
     flex-basis: 0;
     min-width: 200px;
-    align-items: center;
     text-align: center;
 }
 
 footer .wrapper #useful-links {
-    text-align: left;
+    align-items: flex-start;
 }
 
 footer .wrapper #social-media {
-    text-align: center;
+    align-items: center;
 }
 
 footer .wrapper #social-media h2 {

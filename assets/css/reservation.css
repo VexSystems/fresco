@@ -1,38 +1,3 @@
-/*
-<div class="bottom-bar">
-<form action="javascript:alert('Fresco je fiktivan brend koji ne postoji, i služi samo za demonstraciju dizajna i funkcionalnosti, zbog toga ova funkcija je nepostojeća.')">
-<div class="row">
-<input type="text" placeholder="First and last name*" required>
-<input type="email" placeholder="Email address*" required>
-</div>
-<div class="row">
-<input type="date" required>
-<select>
-                            <option>09:00</option>
-                            <option>10:00</option>
-                            <option>11:00</option>
-                            <option>12:00</option>
-                            <option>13:00</option>
-                            <option>14:00</option>
-                            <option>15:00</option>
-                            <option>16:00</option>
-                            <option>17:00</option>
-                            <option>18:00</option>
-                            <option>19:00</option>
-                            <option>20:00</option>
-                            <option>21:00</option>
-                            <option>22:00</option>
-                            <option>23:00</option>
-</select>
-</div>
-
-<div class="column">
-<textarea placeolder="Message*"></textarea>
-<input type="submit" value="Send Email">
-</div>
-
-*/
-
 .reservation {
     padding: 8rem 2rem;
 }
@@ -40,6 +5,7 @@
 .reservation .split-section p {
     text-align: center;
     width: 80%;
+    margin: 0 auto;
 }
 
 .reservation .top-bar {
@@ -59,15 +25,86 @@
     justify-content: center;
 }
 
+.reservation .bottom-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.reservation .bottom-bar .row-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.reservation .bottom-bar .row {
+    display: flex;
+    gap: 1rem;
+    width: calc(50% - 0.5rem);
+}
+
+.reservation .bottom-bar .row input,
+.reservation .bottom-bar .row select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reservation .bottom-bar .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reservation .bottom-bar textarea {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.reservation .bottom-bar input[type="submit"] {
+    max-width: 16rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.reservation .bottom-bar input[type="submit"]:hover {
+    background-color: var(--button-hover);
+}
+
+.reservation .bottom-bar input[type="submit"]:active {
+    background-color: var(--button-active);
+}
+
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
     .reservation .split-section p {
         width: 90%;
+    }
+
+    .reservation .bottom-bar .row-group {
+        flex-direction: column;
+    }
+
+    .reservation .bottom-bar .row {
+        width: 100%;
     }
 }
 
 @media (max-width: 480px) {
     .reservation .split-section p {
         width: 100%;
+    }
+
+    .reservation {
+        padding: 4rem 1rem;
     }
 }
