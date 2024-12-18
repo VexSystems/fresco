@@ -54,7 +54,6 @@ table {
 
     /* LINK */
     --link: #ffcc00;
-    --link-visited: #ffe066;
     --link-hover: #ffe033;
     --link-active: #e6b800;
 
@@ -125,10 +124,6 @@ a {
     color: var(--link);
     transition: color 0.3s ease-in-out;
     text-decoration: none;
-}
-
-a:visited {
-    color: var(--link-visited)
 }
 
 a:hover {
