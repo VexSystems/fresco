@@ -8,7 +8,7 @@
 - [Prijavi grešku](https://github.com/velimirpaleksic/fresco/issues)
 - [Zatraži nadogradnju](https://github.com/velimirpaleksic/fresco/issues)
 
-### Sekcija 📚
+### Sekcije 📚
 - Dobro došli
 - Istaknuta jela
 - Radno osoblje
