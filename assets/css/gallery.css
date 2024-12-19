@@ -1,13 +1,4 @@
 /* gallery.css */
-.reservation {
+.gallery {
     padding: 8rem 2rem;
-}
-
-.reservation .top-bar {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: center;
 }
