@@ -3,12 +3,6 @@
     padding: 8rem 2rem;
 }
 
-.reservation .split-section p {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-}
-
 .reservation .top-bar {
     display: flex;
     gap: 2rem;
@@ -16,96 +10,4 @@
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
-}
-
-.reservation .top-bar .wrapper {
-    width: 50%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.reservation .bottom-bar {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.reservation .bottom-bar .row-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.reservation .bottom-bar .row {
-    display: flex;
-    gap: 1rem;
-    width: calc(50% - 0.5rem);
-}
-
-.reservation .bottom-bar .row input,
-.reservation .bottom-bar .row select {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.reservation .bottom-bar .column {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.reservation .bottom-bar textarea {
-    margin-top: 1rem;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-}
-
-.reservation .bottom-bar input[type="submit"] {
-    max-width: 16rem;
-    padding: 0.8rem 1.5rem;
-    border: none;
-    background-color: var(--button-bg);
-    color: var(--button-text);
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.reservation .bottom-bar input[type="submit"]:hover {
-    background-color: var(--button-hover);
-}
-
-.reservation .bottom-bar input[type="submit"]:active {
-    background-color: var(--button-active);
-}
-
-/* RESPONSIVENESS */
-@media (max-width: 768px) {
-    .reservation .split-section p {
-        width: 90%;
-    }
-
-    .reservation .bottom-bar .row-group {
-        flex-direction: column;
-    }
-
-    .reservation .bottom-bar .row {
-        width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .reservation .split-section p {
-        width: 100%;
-    }
-
-    .reservation {
-        padding: 4rem 1rem;
-    }
 }

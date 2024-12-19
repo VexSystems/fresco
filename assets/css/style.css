@@ -94,12 +94,27 @@ table {
 .split-section p {
     font-size: 1rem;
     margin-bottom: 2rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .split-section hr {
     border: none;
     height: 1px;
     background: linear-gradient(to right, rgb(255,255,255,0.3), rgba(0,0,0, 0));
+}
+
+@media (max-width: 768px) {
+    .split-section p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .split-section p {
+        width: 100%;
+    }
 }
 
 /* FONT */

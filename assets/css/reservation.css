@@ -3,12 +3,6 @@
     padding: 8rem 2rem;
 }
 
-.reservation .split-section p {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-}
-
 .reservation .top-bar {
     display: flex;
     gap: 2rem;
@@ -87,10 +81,6 @@
 
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
-    .reservation .split-section p {
-        width: 90%;
-    }
-
     .reservation .bottom-bar .row-group {
         flex-direction: column;
     }
@@ -101,10 +91,6 @@
 }
 
 @media (max-width: 480px) {
-    .reservation .split-section p {
-        width: 100%;
-    }
-
     .reservation {
         padding: 4rem 1rem;
     }
