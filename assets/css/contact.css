@@ -3,24 +3,6 @@
     padding: 8rem 2rem;
 }
 
-.contact .split-section p {
-    text-align: center;
-    width: 80%;
-}
-
-/* RESPONSIVENESS */
-@media (max-width: 768px) {
-    .contact .split-section p {
-        width: 90%;
-    }
-}
-
-@media (max-width: 480px) {
-    .contact .split-section p {
-        width: 100%;
-    }
-}
-
 .contact .container {
     margin-bottom: 1rem;
 }

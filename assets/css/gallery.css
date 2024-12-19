@@ -2,3 +2,33 @@
 .gallery {
     padding: 8rem 2rem;
 }
+
+.gallery .wrapper {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 16px;
+}
+
+.gallery .container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery .container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery .container:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .gallery .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
