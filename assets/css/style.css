@@ -76,6 +76,14 @@ table {
     --featured-dishes-light: #fcfcfc;
 }
 
+/* ERROR/SUCCESS */
+#error {
+    word-spacing: 0;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: red;
+}
+
 /* SPLIT SECTION */
 .split-section {
     display: flex;
