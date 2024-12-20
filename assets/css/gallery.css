@@ -5,9 +5,9 @@
 
 .gallery .wrapper {
     display: grid;
-    gap: 16px;
+    gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
-    padding: 16px;
+    padding: 0.2rem;
 }
 
 .gallery .container {
@@ -20,6 +20,9 @@
 .gallery .container img {
     width: 100%;
     height: auto;
+    display: block;
+    object-fit: fill;
+    object-position: center;
     transition: transform 0.3s ease-in-out;
 }
 

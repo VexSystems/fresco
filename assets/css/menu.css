@@ -2,3 +2,36 @@
 .menu {
     padding: 8rem 2rem;
 }
+
+.menu .wrapper {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 0.2rem;
+}
+
+.menu .container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu .container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: fill;
+    object-position: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu .container:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .menu .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
