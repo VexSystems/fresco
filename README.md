@@ -2,7 +2,7 @@
 
 ### Uživo Website 👀
 
-- ### [Live Website](https://velimirpaleksic.github.io/fresco/)
+- ### [Uživo Website](https://velimirpaleksic.github.io/fresco/)
 
 ### Greške & nadogradnje 🧩
 - [Prijavi grešku](https://github.com/velimirpaleksic/fresco/issues)
