@@ -2,11 +2,11 @@
 
 ### Uživo Website 👀
 
-- ### [Uživo Website](https://velimirpaleksic.github.io/fresco/)
+- ### [Uživo Website](https://vexsystems.github.io/fresco/)
 
 ### Greške & nadogradnje 🧩
-- [Prijavi grešku](https://github.com/velimirpaleksic/fresco/issues)
-- [Zatraži nadogradnju](https://github.com/velimirpaleksic/fresco/issues)
+- [Prijavi grešku](https://github.com/vexsystems/fresco/issues)
+- [Zatraži nadogradnju](https://github.com/vexsystems/fresco/issues)
 
 ### Sekcije 📚
 - Dobro došli
