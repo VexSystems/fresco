@@ -1,12 +1,8 @@
 # Fresco
 
 ## **Uživo Website** 👀
-
 - [Uživo Website](https://vexsystems.github.io/fresco/)
-
-## **Greške & nadogradnje** 🧩
-- [Prijavi grešku](https://github.com/vexsystems/fresco/issues)
-- [Zatraži nadogradnju](https://github.com/vexsystems/fresco/issues)
+![Demo Screenshot](screenshot.png)
 
 ## **Sekcije** 📚
 - Dobro došli
@@ -18,6 +14,10 @@
 - Rezervacija
 - Galerija
 - Kontakt informacije
+
+## **Bugs & features** 🧩
+- [Report bug](https://github.com/velimirpaleksic/portfolio/issues)
+- [Request Feature](https://github.com/velimirpaleksic/portfolio/issues)
 
 ## **Contact** ✉
 - E-mail: [velimir.paleksic@gmail.com](velimir.paleksic@gmail.com).
