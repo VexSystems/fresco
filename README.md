@@ -1,19 +1,18 @@
 # Fresco
 
-## **Uživo Website** 👀
-- [Uživo Website](https://vexsystems.github.io/fresco/)
+## **Live Website** 👀
+- [Live Website](https://vexsystems.github.io/fresco/)
 ![Demo Screenshot](screenshot.png)
 
-## **Sekcije** 📚
-- Dobro došli
-- Istaknuta jela
-- Radno osoblje
-- Recenzije
-- O nama
-- Meni
-- Rezervacija
-- Galerija
-- Kontakt informacije
+## **Sections** 📚
+- Hero
+- Featured dishes
+- Staff
+- About us
+- Menu
+- Testimonials
+- Gallery
+- Contact info
 
 ## **Contact** ✉
 - E-mail: [velimir.paleksic@gmail.com](velimir.paleksic@gmail.com).
