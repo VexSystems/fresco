@@ -5,22 +5,22 @@
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://velimirpaleksic.github.io/fresco/meni</loc>
+        <loc>https://velimirpaleksic.github.io/fresco/menu</loc>
         <lastmod>2024-12-20T02:29:24+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://velimirpaleksic.github.io/fresco/rezervacija</loc>
+        <loc>https://velimirpaleksic.github.io/fresco/reservations</loc>
         <lastmod>2024-12-20T02:29:24+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://velimirpaleksic.github.io/fresco/galerija</loc>
+        <loc>https://velimirpaleksic.github.io/fresco/gallery</loc>
         <lastmod>2024-12-20T02:29:24+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://velimirpaleksic.github.io/fresco/kontakt</loc>
+        <loc>https://velimirpaleksic.github.io/fresco/contact</loc>
         <lastmod>2024-12-20T02:29:24+00:00</lastmod>
         <priority>0.80</priority>
     </url>
